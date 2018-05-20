@@ -1,0 +1,32 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/potw1815a"
+    android:columnOrderPreserved="false"
+    android:columnCount="3" tools:context=".MainActivity">
+
+    <Button android:id="@+id/top_left" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onTopLeftClick" />
+    <Button android:id="@+id/top_center" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onTopCenterClick" />
+    <Button android:id="@+id/top_right" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onTopRightClick" />
+
+    <Button android:id="@+id/left" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onLeftClick" />
+    <Button android:id="@+id/center" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onCenterClick" />
+    <Button android:id="@+id/right" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onRightClick" />
+
+    <Button android:id="@+id/bottom_left" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onBottomLeftClick" />
+    <Button android:id="@+id/bottom_center" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onBottomCenterClick" />
+    <Button android:id="@+id/bottom_right" android:layout_width="125dp"
+        android:layout_height="125dp" android:onClick="onBottomRightClick" />
+
+</GridLayout>
